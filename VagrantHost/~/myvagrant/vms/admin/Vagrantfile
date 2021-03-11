@@ -83,11 +83,9 @@ Vagrant.configure("2") do |config|
      apt install cockpit-machines -y
      
      cd /opt
-     sudo mkdir /nginx
-     cd nginx
-     >>>>>>>> reenter here  >>>>>sudo curl -L https://raw.github.com/clickonrefresh/dockerconfigs/admin/nginxproxymanager/docker-compose.yaml -o docker-compose.yaml
-     sudo unzip main.zip
+     sudo mkdir nginxproxymanager
      cd nginxproxymanager
+     curl -L https://raw.githubusercontent.com/clickonrefresh/nginxproxymanager/main/docker-compose.yaml -o docker-compose.yaml
      docker-compose up -d
      cd ..
      
