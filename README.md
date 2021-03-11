@@ -1,5 +1,61 @@
-# VagrantPortfolioDeploy
-Script to deploy server cluster and docker swarm with various applications to manage a developers portfolio + business.
+# Clickonrefresh Disruptive Portfolio Design Automation
+
+
+
+## Automated Deployment of a suite of Distuptive Browser Based Applications to manage a portfolio and business.
+
+
+
+## Dockerized & Packaged Browser-Based Apps Included:
+
+    - Admin apps
+      - Nginx Proxy Manager
+      - Portainer
+      - Teleport
+      - Cockpit
+
+    - Productivity Apps
+      - Odoo Community Edition
+      - Visual Studio Code
+      - Organizr
+      - Bookstack
+    - Extras
+      - Homeassistant
+
+## Packaged Applications:
+
+    - Fail2ban
+    - Noip.com Dynamic Update Client
+    - Docker
+    - Vagrant & VirtualBox
+
+## Dependencies Included:
+
+    - wget
+    - curl
+    - zip
+
+
+
+## Minimum System Requirements:
+
+    - 4 vCPU
+    - 6 G Available RAM
+    - 100 G Available Disk Space
+
+## Recommended System Requirements:
+
+    - 8 vCPU
+    - 16 G Available RAM
+    - 100 G Available disk Space
+
+
+
+### Highly extensible and customizable ###
+
+This script will download Vagrant, initiate 3 virtual machines each with a unique set of dockerized applications, as well as some Linux packaged apps.
+
+
 
 ### To run this script:
 
@@ -20,3 +76,7 @@ Script to deploy server cluster and docker swarm with various applications to ma
 ``` sudo wget https://github.com/clickonrefresh/VagrantPortfolioDeploy/archive/main.zip ```
 
 ``` sudo unzip main.zip ```
+
+```sudo bash VagrantHost/main.sh```
+
+
