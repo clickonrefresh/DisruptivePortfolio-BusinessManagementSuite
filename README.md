@@ -37,7 +37,7 @@
     - curl
     - zip
 
-
+------------------------------------------------
 
 ### Minimum System Requirements:
 
@@ -51,8 +51,11 @@
     - 16 G Available RAM
     - 100 G Available disk Space
 
+### You will need 9 Domain Names / Sub-Domain Names if you wish to access all of your apps over SSL
+
 -----------------------------------------------------------------------
 
+-----------------------------------------------------------------------
 ### Highly extensible and customizable ###
 
 This script will download Vagrant, initiate 3 virtual machines each with a unique set of dockerized applications, as well as some Linux packaged apps.
