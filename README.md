@@ -1,11 +1,12 @@
+--------------------------------------------------------------
 # Clickonrefresh Disruptive Portfolio Design Automation
-
+--------------------------------------------------------------
 
 
 ## Automated Deployment of a suite of Distuptive Browser Based Applications to manage a portfolio and business.
+----------------------------------------------------------------------------------------------------------------
 
-
-
+------------------------------------
 ## Dockerized & Packaged Browser-Based Apps Included:
 
     - Admin apps
@@ -30,14 +31,14 @@
     - Docker
     - Vagrant & VirtualBox
 
------------------------------------------------------------------------
+------------------------
 ### Dependencies Included:
 
     - wget
     - curl
     - zip
 
-------------------------------------------------
+------------------------------------------------------------------------
 
 ### Minimum System Requirements:
 
