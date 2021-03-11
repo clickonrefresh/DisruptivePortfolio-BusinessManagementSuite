@@ -4,10 +4,13 @@ Script to deploy server cluster and docker swarm with various applications to ma
 ### To run this script:
 
 #### Dependencies first:
+
 ``` sudo apt install zip -y ```
-``` sudo apt install wget -y ```
+
+```sudo apt install wget -y```
 
 #### Fetch the repo
+
 ``` cd /opt ```
 
 ``` sudo mkdir /myproject ```
