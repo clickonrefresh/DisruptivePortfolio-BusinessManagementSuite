@@ -93,13 +93,12 @@ ________________________
 
 
 
-The script will run, deploying virtualbox and vagrant, then initiate the virtual machines with their own unique set of install scripts:
+#### The script will run, deploying virtualbox and vagrant, then initiate the virtual machines with their own unique set of install scripts:
  
- 
- ##### Virtual Machines:
-                
+  Virtual Machines:
+-------------------                
                 - Ubuntu 20.04 LTS - Hashicorp Image
-                    
+                   ------------------------------ 
                     - Administration:
                         - Nginx Proxy Manager
                         - Cockpit
@@ -115,6 +114,7 @@ The script will run, deploying virtualbox and vagrant, then initiate the virtual
                         - Teleport
                         - HomeAssistant
 
+----------------
  - Each 'VM' is deployed with fail2ban, noip.com DUC and docker.
 
  - Portainer is deployed to manage the entire docker swarm.
