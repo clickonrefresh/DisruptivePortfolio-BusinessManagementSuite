@@ -88,9 +88,10 @@ ________________________
 ``` sudo unzip main.zip ```
 
 ``` sudo bash VagrantHost/main.sh ```
+-------------------------------------
 
 
-
+----------------------------------------------------------------------------------
 #### The script will run, deploying virtualbox and vagrant, then initiate the virtual machines with their own unique set of install scripts:
 -----------------------------------------------------------------------------------
 
