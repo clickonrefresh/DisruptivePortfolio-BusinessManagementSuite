@@ -30,7 +30,8 @@
     - Docker
     - Vagrant & VirtualBox
 
-## Dependencies Included:
+-----------------------------------------------------------------------
+### Dependencies Included:
 
     - wget
     - curl
@@ -38,19 +39,19 @@
 
 
 
-## Minimum System Requirements:
+### Minimum System Requirements:
 
     - 4 vCPU
     - 6 G Available RAM
     - 100 G Available Disk Space
 
-## Recommended System Requirements:
+### Recommended System Requirements:
 
     - 8 vCPU
     - 16 G Available RAM
     - 100 G Available disk Space
 
-
+-----------------------------------------------------------------------
 
 ### Highly extensible and customizable ###
 
