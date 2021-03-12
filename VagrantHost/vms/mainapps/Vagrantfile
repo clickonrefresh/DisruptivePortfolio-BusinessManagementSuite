@@ -85,30 +85,23 @@ Vagrant.configure("2") do |config|
      sudo mkdir dockers
      cd dockers
      sudo apt-get install wget -y
-     sudo wget https://github.com/clickonrefresh/dockerapps/archive/main.zip
+     sudo wget https://github.com/clickonrefresh/dockerboilers/archive/main.zip
      sudo unzip main.zip
 
-     cd dockerapps/odoo/
+     cd dockerboilers-main/odoo/
      sudo docker-compose up -d
-     sudo docker exec -u root -it custnomname /bin/bash
-     cd /usr/lib/python3/dist-packages/
-     pip3 install pandas
-     exit
-     
-     cd /opt
-     cd dockers
-     cd dockerapps
+     cd ..
+     cd dockerboilers-main
      cd organizr
      sudo docker-compose up -d
-     cd /opt
-     cd dockers
-     cd dockerapps
+     cd ..
+     cd dockerboilers-main/
      cd bookstack
      sudo docker-compose up -d
-     
+     cd ..
      cd /opt
      sudo mkdir noip && cd noip
-     sudo wget https://github.com/Neill-H/Automate-Noip-DUC/archive/main.zip
+     sudo wget https://github.com/clickonrefresh/Automate-Noip-DUC/archive/main.zip
      sudo unzip main.zip
      sudo apt-get autoremove
      exit
