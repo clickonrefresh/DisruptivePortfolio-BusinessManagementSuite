@@ -65,9 +65,12 @@
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
    config.vm.provision "shell", inline: <<-SHELL
-     sudo apt-get install fail2ban -y
      sudo apt-get update
      sudo apt-get upgrade -y
+     sudo apt-get install zip -y
+     sudo apt-get install fail2ban -y
+     sudo apt-get install curl -y
+     sudo apt-get install wget -y
      sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
      sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
      sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
