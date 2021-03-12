@@ -130,8 +130,7 @@ ___________________________________
                         - HomeAssistant
 
 ---------------------------------------------------------------------------------
- - Each 'VM' is deployed with fail2ban, noip.com DUC and docker.
-
+ - Each 'VM' is deployed with fail2ban, a script that I wrote for Noip.com DUC (https://github.com/clickonrefresh/Automate-Noip-DUC) and docker.
  - Portainer is deployed to manage the entire docker swarm.
 
 ---------------------------------------------------------------------
