@@ -100,7 +100,7 @@ _______________________
 
 ``` cd portfolioproject ```
 
-``` sudo wget https://github.com/clickonrefresh/DisruptivePortfolio-BusinessManagementSuite/archive/main.zip ```
+``` gh repo clone clickonrefresh/DisruptivePortfolio-BusinessManagementSuite ```
 
 ``` sudo unzip main.zip ```
 
