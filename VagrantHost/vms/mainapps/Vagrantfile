@@ -66,8 +66,7 @@ Vagrant.configure("2") do |config|
   # documentation for more information about their specific syntax and use.
    config.vm.provision "shell", inline: <<-SHELL
      apt-get update
-     apt-get upgrade -y
-     apt install fail2ban -y
+     apt-get install fail2ban -y
 
      sudo apt update
      sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
@@ -78,11 +77,11 @@ Vagrant.configure("2") do |config|
      sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
      sudo chmod +x /usr/local/bin/docker-compose
 
-     sudo apt update
+     sudo apt-get update
      cd /opt
      sudo mkdir dockers
      cd dockers
-     sudo apt install wget -y
+     sudo apt-get install wget -y
      sudo wget https://github.com/clickonrefresh/dockerapps/archive/main.zip
      sudo unzip main.zip
 
@@ -107,9 +106,6 @@ Vagrant.configure("2") do |config|
      sudo mkdir noip && cd noip
      sudo wget https://github.com/Neill-H/Automate-Noip-DUC/archive/main.zip
      sudo unzip main.zip
-     cd Automate-Noip-DUC-main
-     sudo bash noip-duc.sh
-
      exit
    SHELL
 end
