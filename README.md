@@ -8,27 +8,35 @@
 ## Automated deployment of a suite of self hosted, disruptive, browser based applications to manage a portfolio and/or business.
 ----------------------------------------------------------------------------------------------------------------
 
+
 #### Suited for I.T. Proffessionals
 
 ##### Although this base suite is customised for IT professionals, it can be tailored for any industry or individuals needs.
 
+
 ------------------------------------
 ## Dockerized & Packaged Browser-Based Apps Included:
+  
+   #### Admin Apps
+ 
+      - Nginx Proxy Manager - Proxy Host, Redirects & SSL in a GUI
+      - Portainer - Container Management with a GUI
+      - Teleport - Manage all your SSS Servers
+      - Cockpit - An Admin GUI for Linux
 
-    - Admin apps
-      - Nginx Proxy Manager
-      - Portainer
-      - Teleport
-      - Cockpit
 
-    - Productivity Apps
-      - Odoo Community Edition - (with Python-Pandas configured to accomodate 3rd Party Applications)
-      - Visual Studio Code
-      - Organizr
-      - Bookstack
+   #### Productivity Apps
+  
+      - Odoo Community Edition - An Open Sourced ERP | CRM | MRP | Accounting | Business Management | E-Commerce | Website Builder | Integrated | Customisable
+      - Visual Studio Code - Arguably the best browser based code editor / IDE
+      - Organizr - An Application and Favourites Dashboard, easily keep track of all your links, servers and projects.
+      - Bookstack - Self Hosted Knowledge Base
 
-    - Extras
-      - Homeassistant
+   #### Extras
+   
+      - Homeassistant - Home Automation
+
+
 
 ## Packaged Applications:
 
