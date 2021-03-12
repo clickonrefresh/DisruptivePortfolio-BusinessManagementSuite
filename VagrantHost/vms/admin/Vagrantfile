@@ -67,6 +67,7 @@
    config.vm.provision "shell", inline: <<-SHELL
      sudo apt-get install fail2ban -y
      sudo apt-get update
+     sudo apt-get upgrade -y
      sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
      sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
      sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
@@ -85,7 +86,6 @@
      sudo curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-agent-stack.yml
      sudo docker stack deploy -c portainer-agent-stack.yml portainer
      sudo apt-get update
-     sudo apt-get upgrade -y
      cd /opt
      sudo mkdir noip && cd noip
      sudo wget https://github.com/Neill-H/Automate-Noip-DUC/archive/main.zip
