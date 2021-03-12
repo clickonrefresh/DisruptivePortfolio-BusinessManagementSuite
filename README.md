@@ -81,33 +81,18 @@ This script will download Vagrant, initiate 3 virtual machines each with a uniqu
 
 _______________________
 ### To run this script:
-
-#### Dependencies first:
-
-``` sudo apt install zip -y ```
-
-```sudo apt install wget -y```
-
-#### Fetch the repo
-
-``` cd /opt ```
+----------------------
 
 ``` mkdir ~/myvagrantprojects ```
 
 ``` cd ~/myvagrantprojects ```
 
-``` mkdir portfolioproject ```
-
-``` cd portfolioproject ```
-
-``` gh repo clone clickonrefresh/DisruptivePortfolio-BusinessManagementSuite ```
-
-``` sudo unzip main.zip ```
+``` git clone https://github.com/clickonrefresh/DisruptivePortfolio-BusinessManagementSuite.git
 
 ``` cd DisruptivePortfolio-BusinessManagementSuite-main/VagrantHost/ ```
 
-``` sudo bash main.sh ```
-___________________________________
+``` bash main.sh ```
+---------------------------------------------------------------------------------------------------------------------
 
 
 ----------------------------------------------------------------------------------
