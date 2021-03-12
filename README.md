@@ -21,7 +21,7 @@
  
       - Nginx Proxy Manager - Proxy Host, Redirects & SSL in a GUI
       - Portainer - Container Management with a GUI
-      - Teleport - Manage all your SSS Servers
+      - Teleport - SSH Server Managemnt
       - Cockpit - An Admin GUI for Linux
 
 
