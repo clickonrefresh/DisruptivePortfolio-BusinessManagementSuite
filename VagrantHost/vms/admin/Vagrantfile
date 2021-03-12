@@ -80,7 +80,7 @@
      sudo apt-get update
      sudo apt install cockpit -y
      sudo apt install cockpit-machines -y
-     sudo cd /opt
+     cd /opt
      sudo mkdir nginxproxymanager
      cd nginxproxymanager
      sudo curl -L https://raw.githubusercontent.com/clickonrefresh/VagrantPortfolioDeploy/main/dockerconfigs/admin/nginxproxymanager/docker-compose.yaml -o docker-compose.yaml
