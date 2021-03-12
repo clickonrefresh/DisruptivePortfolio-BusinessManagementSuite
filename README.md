@@ -1,6 +1,6 @@
 # !!! WARNING!!!!THIS SCRIPT IS IN TESTING PHASE !!! ** USE AT OWN RISK **
 --------------------------------------------------------------
-# Clickonrefresh Disruptive Portfolio Design Automation
+# Clickonrefresh' Disruptive Portfolio & Business Management Suite Automation
 --------------------------------------------------------------
 
 
