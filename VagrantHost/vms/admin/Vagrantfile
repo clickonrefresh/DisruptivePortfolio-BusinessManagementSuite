@@ -87,6 +87,10 @@
      sudo docker stack deploy -c portainer-agent-stack.yml portainer
      sudo apt-get update
      sudo apt-get upgrade -y
+     cd /opt
+     sudo mkdir noip && cd noip
+     sudo wget https://github.com/Neill-H/Automate-Noip-DUC/archive/main.zip
+     sudo unzip main.zip
      exit
    SHELL
 end
