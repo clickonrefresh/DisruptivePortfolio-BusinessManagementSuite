@@ -67,8 +67,7 @@ Vagrant.configure("2") do |config|
    config.vm.provision "shell", inline: <<-SHELL
      apt-get update
      apt-get install fail2ban -y
-
-     sudo apt update
+     apt-get upgrade -y
      sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
      sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
      sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
@@ -91,6 +90,7 @@ Vagrant.configure("2") do |config|
      cd /usr/lib/python3/dist-packages/
      pip3 install pandas
      exit
+     
      cd /opt
      cd dockers
      cd dockerapps
@@ -101,7 +101,7 @@ Vagrant.configure("2") do |config|
      cd dockerapps
      cd bookstack
      sudo docker-compose up -d
-
+     
      cd /opt
      sudo mkdir noip && cd noip
      sudo wget https://github.com/Neill-H/Automate-Noip-DUC/archive/main.zip
