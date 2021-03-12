@@ -1,13 +1,15 @@
 # !!! WARNING!!!!THIS SCRIPT IS IN TESTING PHASE !!! ** USE AT OWN RISK **
 --------------------------------------------------------------
-# Clickonrefresh' Disruptive Portfolio & Business Management Suite Automation
+# Disruptive Portfolio & Business Management Suite
 --------------------------------------------------------------
 
 
-## Automated Deployment of a suite of Disruptive Browser Based Applications to manage a portfolio and business.
+## Automated deployment of a suite of self hosted, disruptive, browser based applications to manage a portfolio and/or business.
 ----------------------------------------------------------------------------------------------------------------
 
 #### Suited for I.T. Proffessionals
+
+##### Although this base suite is customised for IT professionals, it can be tailored for any industry or individuals needs.
 
 ------------------------------------
 ## Dockerized & Packaged Browser-Based Apps Included:
@@ -135,3 +137,7 @@ ___________________________________
 
 ##### The easiest way to configure database and application password in the yaml files is to fork this project, and alter the configurations to your liking.
 Alternatively you will need to alter the configurations after deploying and re-run the containers.
+
+
+## I am looking for people to help contribute towards the documentation and development of this project.
+### If you are interested please email me @ clickonrefresh@gmail.com
