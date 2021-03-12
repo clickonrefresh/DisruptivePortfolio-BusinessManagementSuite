@@ -92,9 +92,13 @@ _______________________
 
 ``` cd /opt ```
 
-``` sudo mkdir myproject ```
+``` mkdir ~/myvagrantprojects ```
 
-``` cd myproject ```
+``` cd ~/myvagrantprojects ```
+
+``` mkdir portfolioproject ```
+
+``` cd portfolioproject ```
 
 ``` sudo wget https://github.com/clickonrefresh/DisruptivePortfolio-BusinessManagementSuite/archive/main.zip ```
 
