@@ -89,7 +89,8 @@ Vagrant.configure("2") do |config|
      sudo curl -L https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-agent-stack.yml
      sudo docker stack deploy -c portainer-agent-stack.yml portainer
      sudo apt install zip -y
-     sudo mkdir ./noip && cd noip
+     cd /opt
+     sudo mkdir noip && cd noip
      sudo wget https://github.com/clickonrefresh/Automate-Noip-DUC/archive/main.zip
      sudo unzip main.zip
      cd Automate-Noip-DUC-main
