@@ -91,8 +91,17 @@ _______________________
 
 ``` cd DisruptivePortfolio-BusinessManagementSuite-main/VagrantHost/ ```
 
-``` bash main.sh ```
+``` chmod +x main.sh ```
 
+``` ./main.sh ```
+         
+         OR
+
+``` sh main.sh ```
+
+        OR
+
+``` bash main.sh
 ________________________
 
 ----------------------------------------------------------------------------------
