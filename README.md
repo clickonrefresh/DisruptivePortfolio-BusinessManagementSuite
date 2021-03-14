@@ -82,12 +82,23 @@ This script will download Vagrant, initiate 3 virtual machines each with a uniqu
 _______________________
 ### To run this script:
 
+##### Some components of this project need to be configured manually.
+###### Download the Ohrms Core and Accounting Apps from Odoo Apps Store, and place the files in '~/Downloads/odoo/addons'
+###### Take care to name files correctly otherwise the script will fail. This is a feature I am working on improving
 
-``` mkdir ~/myvagrantprojects ```
+#### Clone the repository into the specified location, if you change the path name '~/myvagrantprojects/portfolio' , you will need to also alter the Vagrantfile ##### config.vm.provision "file" source: "<path>" for 'mainapps' and '2ndapps'
 
-``` cd ~/myvagrantprojects ```
+``` mkdir ~/myvagrantprojects/portfolio ```
+
+``` cd ~/myvagrantprojects/portfolio ```
 
 ``` git clone https://github.com/clickonrefresh/DisruptivePortfolio-BusinessManagementSuite.git ```
+
+#### Before executing the script, you will need to alter the teleport docker configuration files and add your FQDN at the following locations: DO NOT RENAME THE FILES, DO NOT MOVE THEM.
+
+   DisruptivePortfolio-BusinessManagementSuite-main/VagrantHost/VagrantHost/vms/2ndapps/teleport/docker-compose.yml
+   DisruptivePortfolio-BusinessManagementSuite-main/VagrantHost/VagrantHost/vms/2ndapps/teleport/config/teleport.yml
+
 
 ``` cd DisruptivePortfolio-BusinessManagementSuite-main/VagrantHost/ ```
 
@@ -118,7 +129,7 @@ ________________________
                         - Portainer
                     
                     - Main Applications:
-                        - Odoo CE
+                        - Odoo CE (with Pandas, 3rd Party Apps)
                         - Organizr
                         - Bookstack
                     
@@ -128,7 +139,7 @@ ________________________
                         - HomeAssistant
 
 ---------------------------------------------------------------------------------
- - Each 'VM' is deployed with fail2ban, docker and a script that I wrote for Noip.com DUC (https://github.com/clickonrefresh/Automate-Noip-DUC).
+ - Each 'VM' is deployed with fail2ban, docker and an un-executed script that I wrote for Noip.com DUC (https://github.com/clickonrefresh/Automate-Noip-DUC).
  
  - Portainer is deployed to manage the entire docker swarm.
 
