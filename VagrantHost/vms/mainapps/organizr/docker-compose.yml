@@ -1,0 +1,15 @@
+version: "3.6"
+services:
+    organizr:
+        container_name: organizrapp
+        hostname: organizr
+        image: organizr/organizr:latest
+        restart: unless-stopped
+        ports:
+            - 8345:80
+        volumes:
+            - </path/to/data/>:/config
+        environment:
+            - PUID=<uid>
+            - PGID=<gid>
+            - TZ=<timezone>
