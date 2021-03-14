@@ -64,7 +64,7 @@ Vagrant.configure("2") do |config|
   # Enable provisioning with a shell script. Additional provisioners such as
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
-   config.vm.provision "file" source: "./DisruptivePortfolio-BusinessManagementSuite/VagrantHost/vms/2ndapps/docker" destination: "/opt/teleport"
+   config.vm.provision "file" source: " ~/<addyour/pathhere>/DisruptivePortfolio-BusinessManagementSuite/VagrantHost/vms/2ndapps/docker" destination: "~/teleport"
    config.vm.provision "shell", inline: <<-SHELL
      apt-get update
      apt-get upgrade -y
@@ -93,9 +93,8 @@ Vagrant.configure("2") do |config|
      sudo curl -L https://raw.githubusercontent.com/clickonrefresh/dockerboilers/main/homeassistant/docker-compose.yaml -o docker-compose.yaml
      sudo docker-compose up -d
      
-     just compose up now, file is copied in creationm.
-     # sudo mkdir /opt/teleport
-     # sudo cp -r teleport /opt/teleport
+     sudo cp -r ~/teleport /opt/teleport
+     sudo docker-compose up -d
      
      cd /opt
      sudo mkdir noip && cd noip
