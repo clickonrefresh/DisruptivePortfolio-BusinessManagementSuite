@@ -44,6 +44,8 @@
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
+  config.vm.synced_folder "./vms/admin/docker", "/opt", create: true
+    owner: "root", group: "root"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
@@ -64,8 +66,7 @@
   # Enable provisioning with a shell script. Additional provisioners such as
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
-   config.vm.synced_folder "./vms/admin/docker", "opt/" create: true
- end
+
    #config.vm.provision "file", source: "$HOME/myvagrantprojects/DisruptivePortfolio-BusinessManagementSuite/VagrantHost/vms/admin/docker/nginxproxymanager/docker-compose.yml", destination: "$HOME/docker/nginxproxymanager/docker-compose.yml"
  #end
    config.vm.provision "shell", inline: <<-SHELL
