@@ -64,7 +64,7 @@ Vagrant.configure("2") do |config|
   # Enable provisioning with a shell script. Additional provisioners such as
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
-   config.vm.provision "file", source: " ~/myvagrantprojects/DisruptivePortfolio-BusinessManagementSuite/VagrantHost/vms/2ndapps/docker", destination: "~/docker"
+   config.vm.provision "file", source: "$HOME/myvagrantprojects/DisruptivePortfolio-BusinessManagementSuite/VagrantHost/vms/2ndapps/docker/", destination: "$HOME/docker"
    config.vm.provision "shell", inline: <<-SHELL
      apt-get update
      apt-get upgrade -y
@@ -81,6 +81,9 @@ Vagrant.configure("2") do |config|
      sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
      sudo chmod +x /usr/local/bin/docker-compose
      
+     cd /opt
+     sudo mkdir docker
+     cd docker
      sudo cp -r ~/docker /opt/docker
      
      cd /opt
