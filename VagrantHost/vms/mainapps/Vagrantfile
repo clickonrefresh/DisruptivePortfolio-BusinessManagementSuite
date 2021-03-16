@@ -87,7 +87,6 @@ Vagrant.configure("2") do |config|
      sudo chmod +x /usr/local/bin/docker-compose
 
      sudo apt-get update
-     sudo init 6
       
      sudo cp -r /var/www/docker /opt/
      cd /opt
