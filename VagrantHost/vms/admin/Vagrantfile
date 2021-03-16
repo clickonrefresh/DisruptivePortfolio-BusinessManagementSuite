@@ -87,8 +87,7 @@
      sudo apt-get update
      
      sudo apt install cockpit -y
-     sudo cp -r /var/www/docker /opt/
-     cd /opt
+     cd /vagrant
      cd docker
      cd nginxproxymanager
      # sudo cp -r $HOME/docker/nginxproxymanager/docker-compose.yml /opt/docker/nginxproxymanager/docker-compose.yml
