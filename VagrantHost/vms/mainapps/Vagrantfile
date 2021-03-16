@@ -44,7 +44,7 @@ Vagrant.configure("2") do |config|
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
-   config.vm.synced_folder "./docker", "/home/vagrant/", create: true
+   config.vm.synced_folder "./docker", "/var/www/", :mount_options => ["dmode=777", "fmode=666"]
    #  owner: "root", group: "root"
  
     # owner: "root", group: "root"
@@ -87,8 +87,9 @@ Vagrant.configure("2") do |config|
      sudo chmod +x /usr/local/bin/docker-compose
 
      sudo apt-get update
-     
-     sudo cp -r /home/vagrant/docker /opt/
+     sudo init 6
+      
+     sudo cp -r /var/www/docker /opt/
      cd /opt
      
      cd docker
