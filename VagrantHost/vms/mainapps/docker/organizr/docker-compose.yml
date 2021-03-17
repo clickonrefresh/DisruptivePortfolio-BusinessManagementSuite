@@ -8,8 +8,8 @@ services:
         ports:
             - 8345:80
         volumes:
-            - </path/to/data/>:/config
+            - /var/www/organizr:/config
         environment:
-            - PUID=<uid>
-            - PGID=<gid>
-            - TZ=<timezone>
+            - PUID=1000
+            - PGID=1000
+            - TZ=Africa/Johannesburg
