@@ -86,7 +86,8 @@
      
      sudo apt install cockpit -y
      
-     cd /vagrant
+     cd /var
+     cd www
      cd docker
      cd nginxproxymanager
      sudo docker-compose up -d
