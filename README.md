@@ -1,7 +1,7 @@
 
 ### !!! WARNING!!!!THIS SCRIPT IS IN TESTING PHASE !!! ** USE AT OWN RISK **
 
-### The current configuration is working. Still testing and adding features.
+### 
 
 
 
