@@ -44,7 +44,7 @@ Vagrant.configure("2") do |config|
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
-   config.vm.synced_folder "./docker", "/opt/", :mount_options => ["dmode=777", "fmode=666"]
+   config.vm.synced_folder "./docker", "/var/www/", :mount_options => ["dmode=777", "fmode=666"]
    #  owner: "root", group: "root"
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
@@ -82,18 +82,18 @@ Vagrant.configure("2") do |config|
      sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
      sudo chmod +x /usr/local/bin/docker-compose
       
-     cd /opt
-     cd docker
+     cd /var
+     cd www
      cd vscodeserver
      sudo docker-compose up -d
 
-     cd /opt
-     cd docker
+     cd /var
+     cd www
      cd homeassistant
      sudo docker-compose up -d
      
-     cd /opt
-     cd docker
+     cd /var
+     cd www
      cd teleport
      sudo docker-compose up -d
      
