@@ -16,7 +16,7 @@
 
 #### Suited for I.T. Proffessionals
 
-##### Although this base suite is customised for IT professionals, it can be tailored for any industry or individuals needs.
+Although this base suite is customised for IT professionals, it can be tailored for any industry or individuals needs.
 
 
 ------------------------------------
@@ -89,30 +89,24 @@ __This script will download Vagrant, initiate 3 virtual machines each with a uni
   - [Ohrms Core](https://apps.odoo.com/apps/modules/14.0/ohrms_core/)  
   - [Accounting Apps](https://apps.odoo.com/apps/modules/14.0/base_accounting_kit/)
    
-##### From the Odoo Apps Store, and place the files in  newly created directory:
+##### From the Odoo Apps Store, and place the files in the following directory:
 
-  '~/Downloads/odoo/addons'
+  'DisruptivePortfolio-BusinessManagemnetSuite/VagrantHost/vms/mainapps/docker/odoo/addons'
 
 *Thescript will move the files to their correct locations afterward*
 
 ----------
-*adhere to this naming convention otherwise you will need to alter the entire script*
+*adhere to this naming convention otherwise you will need to alter the script*
 
-###### Take care to name files correctly otherwise the script will fail. This is a feature I am working on improving.
+##### Take care to name files correctly otherwise the script will fail. This is a feature I am working on improving.
 
 
 ----------
-## ! Please adhere to the naming convention put forth.
-----------
-
-
-
-
--------
-##### if you change this name you will need to adjust various files including 
-      config.vm.provision "file" source: "<path>"
-      config.vm.provision "INLINE" shell
+## ! Please adhere to the naming convention put forth
 -------  
+
+
+
 
 # Create a new directory to hold the project and clone the repo:
 
@@ -129,7 +123,9 @@ __This script will download Vagrant, initiate 3 virtual machines each with a uni
 ##### DO NOT RENAME THE FILES, DO NOT MOVE THEM.
 
 
-### You will need to alter the user-names, passwords, and FQDN's in all of the 'docker-compose.yml' files to suit our needs. 
+### You will need to alter the user-names, passwords, and FQDN's, TimeZones, and volume paths <path/to/config>,  in all of the 'docker-compose.yml' files to suit ### your needs. 
+ 
+ 
  
 ##### All of the files needing editing are contained within the following directories within the project:
 
