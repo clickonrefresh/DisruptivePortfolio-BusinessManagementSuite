@@ -43,7 +43,7 @@
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
-  config.vm.synced_folder "./docker", "/var/www/", :mount_options => ["dmode=777", "fmode=666"]
+  config.vm.synced_folder "./docker", "/opt/", :mount_options => ["dmode=777", "fmode=666"]
   
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
@@ -84,11 +84,11 @@
      sudo chmod +x /usr/local/bin/docker-compose
      sudo apt-get update
      
+     sudo usermod -aG sudo vagrant
+     
      sudo apt install cockpit -y
      
-     cd /var
-     cd www
-     cd docker
+     cd /opt
      cd nginxproxymanager
      sudo docker-compose up -d
      cd ..
