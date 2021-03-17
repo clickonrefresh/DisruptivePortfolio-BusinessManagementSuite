@@ -6,10 +6,10 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - APP_URL=
+      - APP_URL=clickondocs.onthewifi.com
       - DB_HOST=bookstack_db
-      - DB_USER=bookstack
-      - DB_PASS=<yourdbpass>
+      - DB_USER=clickonbookstack
+      - DB_PASS=eg5vy46FGFHJ-dsf-wetr
       - DB_DATABASE=bookstackapp
     volumes:
       - /path/to/data:/config
@@ -24,11 +24,11 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - MYSQL_ROOT_PASSWORD=<yourdbpass>
-      - TZ=Europe/London
+      - MYSQL_ROOT_PASSWORD=dfijw0-34tggdfRGYa-f
+      - TZ=Africa/Johannesburg
       - MYSQL_DATABASE=bookstackapp
-      - MYSQL_USER=bookstack
-      - MYSQL_PASSWORD=<yourdbpass>
+      - MYSQL_USER=clickonbookstack
+      - MYSQL_PASSWORD=eg5vy46FGFHJ-dsf-wetr
     volumes:
       - /path/to/data:/config
     restart: unless-stopped
