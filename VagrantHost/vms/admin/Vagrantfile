@@ -5,6 +5,10 @@
   # config.vm.network "forwarded_port", guest: 80, host: 80
   # config.vm.network "forwarded_port", guest: 443, host: 443
    config.vm.network "public_network", ip: "192.168.1.40", use_dhcp_assigned_default_route: true
+    config.vm.provision "shell",
+    run: "always",
+    inline: "route add default gw 192.168.1.1"
+
  
   # Folder Syncing
    config.vm.synced_folder "./docker", "/home/vagrant/docker/", create: true
