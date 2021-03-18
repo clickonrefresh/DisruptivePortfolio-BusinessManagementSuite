@@ -19,6 +19,6 @@
    vb.cpus = 1
    end
   
-   config.vm.provision "shell", path: "install.sh", privelaged: false
+   config.vm.provision "shell", path: "install.sh"
      
 end
