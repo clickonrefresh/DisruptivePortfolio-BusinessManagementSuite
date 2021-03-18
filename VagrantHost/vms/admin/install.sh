@@ -31,6 +31,11 @@
      sudo mkdir noip && cd noip
      sudo wget https://github.com/Neill-H/Automate-Noip-DUC/archive/main.zip
      sudo unzip main.zip
+     
      sudo apt autoremove -y
+     
+     sudo apt-get update
+     sudo apt-get upgrade -y
+     
      sudo init 6
      
