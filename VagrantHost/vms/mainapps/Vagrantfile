@@ -3,7 +3,7 @@ Vagrant.configure("2") do |config|
 
 
   # Every Vagrant development environment requires a box. 
-   config.vm.box = "generic/ubuntu1804"
+   config.vm.box = "ubuntu/bionic64"
 
   # Create a public network
    config.vm.network "public_network", auto_config: false
