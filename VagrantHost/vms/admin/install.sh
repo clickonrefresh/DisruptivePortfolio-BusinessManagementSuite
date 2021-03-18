@@ -15,16 +15,13 @@
      sudo apt-get update
      sudo apt-get upgrade -y
      
-     sudo usermod -aG sudo vagrant
-     
-     sleep 20s
-     cd /var
-     cd www
+     cd /home
+     cd vagrant
+     cd docker
      cd nginxproxymanager
      sudo docker-compose up -d
      cd ..
      
-     sleep 20s
      sudo docker volume create portainer_data
      sudo docker run -d -p 8023:8000 -p 9023:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
      
@@ -34,6 +31,6 @@
      sudo mkdir noip && cd noip
      sudo wget https://github.com/Neill-H/Automate-Noip-DUC/archive/main.zip
      sudo unzip main.zip
+     sudo apt autoremove -y
      sudo init 6
-     
      
