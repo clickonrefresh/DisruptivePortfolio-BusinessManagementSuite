@@ -16,14 +16,14 @@
      sudo apt-get upgrade -y
      
      cd /home
-     cd vagrant
+     cd ubuntu-focal
      cd docker
      cd nginxproxymanager
      sudo docker-compose up -d
      cd ..
      
      sudo docker volume create portainer_data
-     sudo docker run -d -p 8023:8000 -p 9023:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
+     sudo docker run -d -p 8023:8000 -network nginxproxymanager_default --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
      
      sudo apt install cockpit -y
      
