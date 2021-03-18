@@ -40,3 +40,4 @@
      sudo wget https://github.com/clickonrefresh/Automate-Noip-DUC/archive/main.zip
      sudo unzip main.zip
      sudo apt-get autoremove -y
+     sudo init 6
