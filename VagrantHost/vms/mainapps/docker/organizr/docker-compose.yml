@@ -1,7 +1,7 @@
 version: "3.6"
 services:
     organizr:
-        container_name: organizrapp
+        container_name: organizrapp # customise
         hostname: organizr
         image: organizr/organizr:latest
         restart: unless-stopped
