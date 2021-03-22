@@ -12,6 +12,11 @@
 
 
 
+https://user-images.githubusercontent.com/72121107/111981620-94602a80-8b10-11eb-9aff-8a03ae08804f.mp4
+
+![clickonrefresh Disruptive portfolio   business management suite](https://user-images.githubusercontent.com/72121107/111981637-9924de80-8b10-11eb-8b09-eb671b782193.png)
+
+![clickonrefresh Disruptive portfolio   business management suite](https://user-images.githubusercontent.com/72121107/111981707-b194f900-8b10-11eb-978c-eb6b790eb259.gif)
 
 
 !!! View the issues to see the current limitations of this deployment !!!
