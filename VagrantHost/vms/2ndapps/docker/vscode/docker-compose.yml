@@ -6,12 +6,12 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Africa/Johannesburg
-      - PASSWORD=psdfjh8024-df2DF6 #optional
-      - HASHED_PASSWORD= #optional
-      - SUDO_PASSWORD=sg-2466mhgH37-8 #optional
+      - TZ=Country/Region
+      - PASSWORD= #optional
+      - HASHED_PASSWORD=#optional
+      - SUDO_PASSWORD= #optional
       - SUDO_PASSWORD_HASH= #optional
-      - PROXY_DOMAIN=clickoncode.onthewifi.com #optional
+      - PROXY_DOMAIN= #optional
     volumes:
       - /var/www/vscode:/config
     ports:
