@@ -2,7 +2,7 @@
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/clickonrefresh?style=social) 
 
-![GitHub commit checks state](https://img.shields.io/github/checks-status/clickonrefresh/DisruptivePortfolio-BusinessManagementSuite/issues/3?style=plastic) 
+![GitHub issues](https://img.shields.io/github/issues/clickonrefresh/DisruptivePortfolio-BusinessManagementSuite?style=for-the-badge)
 
 ![GitHub branch checks state](https://img.shields.io/github/checks-status/clickonrefresh/DisruptivePortfolio-BusinessManagementSuite/main?style=flat-square)
 
