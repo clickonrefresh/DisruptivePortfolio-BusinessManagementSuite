@@ -1,10 +1,3 @@
-# ON DEPRECATION, VBOX PROVIDER NOT WORKING AS INTENDED< TRYING DDOCKER AS PROVIDER
-### !!! WARNING!!!!THIS SCRIPT IS IN TESTING PHASE !!! ** USE AT OWN RISK **
-
-### 
-
-
-
 --------------------------------------------------------------
 # Disruptive Portfolio & Business Management Suite
 --------------------------------------------------------------
