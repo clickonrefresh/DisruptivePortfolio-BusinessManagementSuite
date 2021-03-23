@@ -11,6 +11,13 @@
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/clickonrefresh?style=social) 
 
+
+
+
+
+TO DO:
+add screenshots, and neaten up docs, make sure teleoprt works. then go public.
+
 --------------------------------------------------------------
 # Disruptive Portfolio & Business Management Suite
 --------------------------------------------------------------
