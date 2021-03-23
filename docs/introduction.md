@@ -24,6 +24,7 @@ With a self hosted option, you take complete control of the customization of you
 * Bookstack - Documentation
 * Organizr - Dashboard
 * Visual Studio Code - Dockerized Web-Based IDE
+* Home Assistant - Home Automation
 
 The customizable nature of the applications being used means we will be focusing on configuring the stack to function as a Portfolio, with a website interface offering multiple extensabilities. Coupled with multiple options for creating and hosting your own Knowledge Base. All easily managed with web GUI controls.
 
