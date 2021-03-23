@@ -4,6 +4,8 @@ description: Summary
 
 # Disruptive Portfolio & Business Management Suite
 
+![](.gitbook/assets/image.png)
+
 ### A curated collection of browser based applications to help you manage your portfolio, and business.
 
 The base set of applications contains tools for software development and devops, as well as applications to help you run and manage your business.
