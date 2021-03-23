@@ -4,7 +4,11 @@ description: Summary
 
 # Disruptive Portfolio & Business Management Suite
 
-![](.gitbook/assets/image.png)
+
+
+![Twitter Follow](https://img.shields.io/twitter/follow/clickonrefresh?style=social)
+
+![](.gitbook/assets/clickonrefresh-disruptive-portfolio-and-business-management-suite.gif)
 
 ### A curated collection of browser based applications to help you manage your portfolio, and business.
 
