@@ -24,37 +24,16 @@ ________________________________________________________________________________
 ## Automated deployment of a suite of self hosted, disruptive, browser based applications to manage a portfolio and/or business.
 --------------------------------------------------------------------------------------------------------------------------------
 
-A curated collection of browser based applications to help you manage your portfolio, and business.
+A curated collection of browser based applications to help you manage your portfolio, and/or business.
 
 The base set of applications contains tools for software development and devops, as well as applications to help you run and manage your business.
 
 Highly customizable, the application suite can be modified or extended upon easily.
 
 This script will download Vagrant, initiate 3 VirtualBox virtual machines each with a unique set of Dockerized applications, as well as some Linux packaged appslications.
-__________________________________________________________________________________________________________
-__________________________________________________________________________________________________________
 
-# To run the script:
 
-### Create a new directory and clone the Github repository.
 
-```
-mkdir myprojects
-
-cd myprojects
-
-git clone https://github.com/clickonrefresh/DisruptivePortfolio-BusinessManagementSuite.git
-```
-
-### Navigate into the project folder, then execute the script.
-
-```
-cd DisruptivePortfolio-BusinessManagementSuite-main/VagrantHost/
-
-chmod +x main.sh
-
-./main.sh
-```
 _____________________________________________________________________________________________________________________________________________
 
 
@@ -62,10 +41,7 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________________________________
  
 
- ##### Although this base suite is customised for IT professionals, it can be tailored for any industry or individuals needs.
 
-
-------------------------------------
 ## Dockerized & Packaged Browser-Based Apps Included:
   
    #### Admin Apps
@@ -96,7 +72,7 @@ ________________________________________________________________________________
     - Docker
     - Vagrant & VirtualBox
 
-------------------------
+
 ### Dependencies Included:
 
     - wget
@@ -105,14 +81,15 @@ ________________________________________________________________________________
 
 
 
-----
-#COMING SOON: 
+
+# COMING SOON: 
 
     - Jellyfin
     - Full stack React/Express/MongoDB app
     - PfSense
 _____________________________________________________________________________________________________________________________________________
 _____________________________________________________________________________________________________________________________________________
+
 
 # System Requirements
 
@@ -155,6 +132,31 @@ ________________________________________________________________________________
                         - Teleport
                         - HomeAssistant
 
+
+_____________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________________
+
+# To run the script:
+
+### Create a new directory and clone the Github repository.
+
+```
+mkdir myprojects
+
+cd myprojects
+
+git clone https://github.com/clickonrefresh/DisruptivePortfolio-BusinessManagementSuite.git
+```
+
+### Navigate into the project folder, then execute the script.
+
+```
+cd DisruptivePortfolio-BusinessManagementSuite-main/VagrantHost/
+
+chmod +x main.sh
+
+./main.sh
+```
 _____________________________________________________________________________________________________________________________________________
 _____________________________________________________________________________________________________________________________________________
 
