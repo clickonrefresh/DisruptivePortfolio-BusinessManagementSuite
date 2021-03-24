@@ -92,6 +92,7 @@ ________________________________________________________________________________
     - Jellyfin
     - Full stack React/Express/MongoDB app
     - PfSense
+    - Deployment options in the form of new releases or branches.
 -------
 
 
