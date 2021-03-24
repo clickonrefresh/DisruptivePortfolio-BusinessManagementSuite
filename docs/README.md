@@ -4,8 +4,6 @@ description: Summary
 
 # Disruptive Portfolio & Business Management Suite
 
-
-
 ![Twitter Follow](https://img.shields.io/twitter/follow/clickonrefresh?style=social)
 
 ![](.gitbook/assets/clickonrefresh-disruptive-portfolio-and-business-management-suite.gif)
