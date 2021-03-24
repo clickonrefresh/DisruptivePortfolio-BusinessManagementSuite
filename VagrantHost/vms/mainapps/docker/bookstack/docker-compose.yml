@@ -12,7 +12,7 @@ services:
       - DB_PASS=<yourpassword>
       - DB_DATABASE=bookstackapp
     volumes:
-      - ./bookstack:/config
+      - ./bookstack/config:/config
     ports:
       - 6875:80
     restart: unless-stopped
@@ -30,5 +30,5 @@ services:
       - MYSQL_USER=<youruser>
       - MYSQL_PASSWORD=<yourpassword>
     volumes:
-      - ./bookstack:/config
+      - ./bookstack/config:/config
     restart: unless-stopped
