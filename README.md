@@ -188,7 +188,7 @@ ________________________________________________________________________________
 
 ### Teleport
  * Please use this awesome guide to help you finish configuring teleport
- * [The Digital Life - Manage YOur SSH Servers](https://youtu.be/nk1jfIAL5qE?t=465)
+ * [The Digital Life - Manage Your SSH Servers](https://youtu.be/nk1jfIAL5qE?t=465)
  * 'vagrant ssh' into the teleport machine, then follow the video guide at the stamp that is linked.
  
  
