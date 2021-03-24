@@ -56,13 +56,13 @@ chmod +x main.sh
 ./main.sh
 ```
 _____________________________________________________________________________________________________________________________________________
-_____________________________________________________________________________________________________________________________________________
-_____________________________________________________________________________________________________________________________________________
+
+
+
 _____________________________________________________________________________________________________________________________________________
  
 
- ##### Suited for I.T. Proffessionals
-    Although this base suite is customised for IT professionals, it can be tailored for any industry or individuals needs.
+ ##### Although this base suite is customised for IT professionals, it can be tailored for any industry or individuals needs.
 
 
 ------------------------------------
@@ -132,18 +132,6 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________________________________
 
 
-### Highly extensible and customizable ###
-
-__This script will download Vagrant, initiate 3 virtual machines each with a unique set of dockerized applications, as well as some Linux packaged apps__.
-
- 
-##### All of the files needing editing are contained within the following directories within the project:
-
-  1. Admin Apps - DisruptivePortfolio-BusinessManagementSuite-main/VagrantHost/vms/admin/docker/
-  2. Main Apps - DisruptivePortfolio-BusinessManagementSuite-main/VagrantHost/vms/mainapps/docker/
-  3. 2nd Apps - DisruptivePortfolio-BusinessManagementSuite-main/VagrantHost/vms/2ndapps/docker/
-
-
 ----------------------------------------------------------------------------------
 #### The script will run, deploying virtualbox and vagrant, then initiate the virtual machines with their own unique set of install scripts:
 -----------------------------------------------------------------------------------
@@ -174,7 +162,14 @@ ________________________________________________________________________________
 
 #### The easiest way to configure database and application password in the yaml files is to clone this project, and alter the configurations to your liking before running the script.
 
+##### All of the files needing editing are contained within the following directories within the project:
+
+  1. Admin Apps - DisruptivePortfolio-BusinessManagementSuite-main/VagrantHost/vms/admin/docker/
+  2. Main Apps - DisruptivePortfolio-BusinessManagementSuite-main/VagrantHost/vms/mainapps/docker/
+  3. 2nd Apps - DisruptivePortfolio-BusinessManagementSuite-main/VagrantHost/vms/2ndapps/docker/
+
 #### Alternatively you will need to alter the configurations after deploying and re-run the containers.
+
 
 ### Teleport
  * Please use this awesome guide to help you finish configuring teleport
@@ -182,11 +177,6 @@ ________________________________________________________________________________
  * 'vagrant ssh' into the teleport machine, then follow the video guide at the stamp that is linked.
  
  
-
-_____________________________________________________________________________________________________________________________________________
-_____________________________________________________________________________________________________________________________________________
-
-
 ### You will need 9 Domain Names / Sub-Domain Names if you wish to access all of your apps over SSL
 
 ##### The noip script will be downloaded during this deployment, you will need to ssh into each machine individually and run their respective noip.com DUC scripts to configure your hostnames:
