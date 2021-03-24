@@ -20,3 +20,7 @@
   * [Extras](the-apps/extras/README.md)
     * [Home Assistant](the-apps/extras/home-assistant.md)
 
+## The Script Explained
+
+* [Untitled](the-script-explained/untitled.md)
+
