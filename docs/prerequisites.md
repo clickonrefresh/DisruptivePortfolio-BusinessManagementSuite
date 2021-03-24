@@ -25,13 +25,23 @@
 
 ## Odoo Addons
 
+To install python pandas in the odoo container:
+
+```text
+sudo docker exec -u root -it <containername> /bin/bash
+```
+
+Once inside the docker container:
+
+```text
+cd /usr/lib/python3/dist-packages
+pip3 install pandas
+exit
+```
 
 
-### !!! View the [issues](https://github.com/clickonrefresh/DisruptivePortfolio-BusinessManagementSuite/issues) to see the current limitations of this deployment !!!
 
-> THIS STEP HAS BEEN AUTOMATED. IF YOU WISH TO USE ALTERNATE APPS OR VERSIONS YOU WILL NEED TO DO THIS STEP
->
-> **Some components of this project need to be configured manually.**
+> THIS  NEXT STEP HAS BEEN AUTOMATED. IF YOU WISH TO USE ALTERNATE APPS OR VERSIONS YOU WILL NEED TO DO THIS STEP
 
 **For Odoo 3rd Party Apps download:**
 
