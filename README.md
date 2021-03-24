@@ -130,7 +130,7 @@ ________________________________________________________________________________
 
   Virtual Machines:
                
-                - Ubuntu 20.04 LTS - Hashicorp Image
+                - Ubuntu 20.04 LTS - ubuntu/focal64 Image
                   
                     - Administration:
                         - Nginx Proxy Manager
