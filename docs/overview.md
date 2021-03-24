@@ -52,3 +52,19 @@ Featuring a collection of browser based administrative type applications, turnin
 
 ![](.gitbook/assets/untitled-design.png)
 
+## Your Developer Tools
+
+### Visual Studio Code-Server
+
+![](.gitbook/assets/screenshot_20210324_103959.png)
+
+
+
+
+
+## Extras
+
+### Home Assistant
+
+![](.gitbook/assets/screenshot_20210324_101503.png)
+
