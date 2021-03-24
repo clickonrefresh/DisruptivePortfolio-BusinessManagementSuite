@@ -35,7 +35,9 @@ This script will download Vagrant, initiate 3 VirtualBox virtual machines each w
 
 
 _____________________________________________________________________________________________________________________________________________
-
+For Official Documentation:
+ - Github - https://github.com/clickonrefresh/DisruptivePortfolio-BusinessManagementSuite/tree/main/docs
+ - GitBook - https://clickonrefresh.gitbook.io/disruptive-portfolio-and-business-management-suite/
 
 
 _____________________________________________________________________________________________________________________________________________
