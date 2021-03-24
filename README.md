@@ -36,7 +36,7 @@ ________________________________________________________________________________
 #### For Official Documentation:
 
  - ![Github - Disruptive Portfolio-Business Management Suite Documentation](https://github.com/clickonrefresh/DisruptivePortfolio-BusinessManagementSuite/tree/main/docs)
- - ![GitBook Disruptive Portfolio-Business Management Suite Documentation](https://clickonrefresh.gitbook.io/disruptive-portfolio-and-business-management-suite/)
+ - [GitBook Disruptive Portfolio-Business Management Suite Documentation](https://clickonrefresh.gitbook.io/disruptive-portfolio-and-business-management-suite/)
 
 
 
