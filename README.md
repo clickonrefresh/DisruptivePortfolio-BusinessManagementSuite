@@ -38,12 +38,8 @@ ________________________________________________________________________________
  - [Github - Disruptive Portfolio-Business Management Suite Documentation](https://github.com/clickonrefresh/DisruptivePortfolio-BusinessManagementSuite/tree/main/docs)
  - [GitBook Disruptive Portfolio-Business Management Suite Documentation](https://clickonrefresh.gitbook.io/disruptive-portfolio-and-business-management-suite/)
 
-
-
-#### View exapmles of this project:
-
- - [Clickonrefresh' Dashboard](https://clickondashboard.onthewifi.com)
- - [Clickonrefresh' Portfolio](https://clickonrefresh.onthewifi.com)
+#### Overview
+ - [Project Overview](https://github.com/clickonrefresh/DisruptivePortfolio-BusinessManagementSuite/blob/24e79464d4c6a49f4feaf159bd92efbd92b595ff/docs/overview.md)
 
 
 _____________________________________________________________________________________________________________________________________________
